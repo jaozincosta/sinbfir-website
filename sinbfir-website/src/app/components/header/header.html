@@ -1,1 +1,23 @@
-<p>header works!</p>
+<header class="navbar">
+  <div class="navbar__logo">
+    <img src="assets/logo-sinfir.png" alt="Logo SINFIR" />
+  </div>
+
+  <nav class="navbar__menu">
+    <a routerLink="/convencoes">Convenções</a>
+    <div class="dropdown">
+      <span>Serviços ▾</span>
+      <div class="dropdown-content">
+        <a routerLink="/servicos/1">Serviço 1</a>
+        <a routerLink="/servicos/2">Serviço 2</a>
+      </div>
+    </div>
+    <a routerLink="/noticias">Notícias</a>
+    <a routerLink="/quem-somos">Quem somos</a>
+    <a routerLink="/contato">Contato</a>
+  </nav>
+
+  <div class="navbar__action">
+    <button>Seja um membro</button>
+  </div>
+</header>
